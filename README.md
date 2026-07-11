@@ -1,5 +1,8 @@
 # Project Intezari
- <h1> اَللّٰهُمَّ عَرِّفْنِىْ حُجَّتَكَ - فَاِنَّكَ اِنْ لَّمْ تُعَرِّ فْنِىْ   حُجَّتَكَ ضَلَلْتُ عَنْ دِيْنِىْ</h1>
+
+<img src="./docs/banner.png" alt="Project Intezari — Imam al-Asr (atfs)" width="100%" />
+
+ <h2> اَللّٰهُمَّ عَرِّفْنِىْ حُجَّتَكَ - فَاِنَّكَ اِنْ لَّمْ تُعَرِّ فْنِىْ   حُجَّتَكَ ضَلَلْتُ عَنْ دِيْنِىْ</h2>
 <p>Allahumma a'rrifni hujjatak fa innaka in lam to a'rifni hujjatak, zalal to an deeni. </p>
 <h3>Oh Allah make me recognize Your Proof (Imam) - For, if you do not make me recognize Your Proof , I will deviate from my religion</h3>
 
