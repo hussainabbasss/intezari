@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import { StackHeader } from "@/components/ui/StackHeader";
-import { getNarration, mockNarrations } from "@/lib/mock";
+import { getAllHadiths, getHadithById } from "@/lib/intellect/corpus";
 
 export function generateStaticParams() {
-  return mockNarrations.map((n) => ({ id: n.id }));
+  return getAllHadiths().map((n) => ({ id: n.id }));
 }
 
 export default async function NarrationDetailPage({
@@ -12,7 +12,7 @@ export default async function NarrationDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const narration = getNarration(id);
+  const narration = getHadithById(id);
   if (!narration) notFound();
 
   return (
@@ -30,6 +30,11 @@ export default async function NarrationDetailPage({
         <p className="max-w-[65ch] text-base leading-relaxed text-on-surface-variant">
           {narration.body}
         </p>
+        {narration.themes && narration.themes.length > 0 ? (
+          <p className="font-data mt-8 text-outline">
+            Themes: {narration.themes.join(" · ")}
+          </p>
+        ) : null}
       </main>
     </div>
   );

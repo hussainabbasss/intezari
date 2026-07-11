@@ -1,0 +1,86 @@
+{
+  "source": "Kitab al-Ghaybah",
+  "note": "Add full narrations here. The app picks 7 per day and shows 3 at a time with same-day rotation. Keep ids stable once shipped.",
+  "narrations": [
+    {
+      "id": "ghaybah-001",
+      "label": "Firmness in Occultation",
+      "quote": "Blessed are those who remain steadfast upon their faith in the time of the occultation of their Imam.",
+      "ref": "Kitab al-Ghaybah — al-Tusi",
+      "body": "Steadfastness in occultation is not passive waiting. It is returning to prayer when distraction wins, returning to knowledge when ignorance spreads, and returning to hope when the wait feels long. The companions of the Qa'im are forged in this quiet discipline.",
+      "themes": ["steadfastness", "occultation"]
+    },
+    {
+      "id": "ghaybah-002",
+      "label": "The Lamp of Vigil",
+      "quote": "The believer in the time of occultation is like one who keeps vigil with a lamp that must not go out.",
+      "ref": "Kitab al-Ghaybah — al-Nu'mani",
+      "body": "Your lamp is guarded by salah, knowledge, and mutual care. Tend it daily. The night of occultation is long, but dawn belongs to those who did not abandon their post.",
+      "themes": ["vigilance", "community"]
+    },
+    {
+      "id": "ghaybah-003",
+      "label": "Inner Refinement",
+      "quote": "Prepare for that which is coming by refining that which is within.",
+      "ref": "Kitab al-Ghaybah — al-Nu'mani",
+      "body": "Preparation is inward before it is outward. Cleanse intention, strengthen the body for service, and keep the heart awake for the call. Spectacle does not make companions; sincerity does.",
+      "themes": ["preparation", "character"]
+    },
+    {
+      "id": "ghaybah-004",
+      "label": "Patience as Craft",
+      "quote": "Patience during occultation is an active craft for those who await with certainty.",
+      "ref": "Kitab al-Ghaybah — al-Tusi",
+      "body": "Patience is not numbness. It is choosing again each day: prayer on time, honesty in dealings, and refusal to trade conviction for ease. Craft it as you would any skill worth mastering.",
+      "themes": ["patience", "certainty"]
+    },
+    {
+      "id": "ghaybah-005",
+      "label": "Community Resilience",
+      "quote": "Hold fast to the rope of Allah together, and do not become divided in the long night.",
+      "ref": "Kitab al-Ghaybah — al-Nu'mani",
+      "body": "The occultation tests communities as much as individuals. Visit the lonely, teach the young, and protect the weak. A scattered ummah cannot recognize its Imam with one heart.",
+      "themes": ["community", "unity"]
+    },
+    {
+      "id": "ghaybah-006",
+      "label": "Knowledge Before the Call",
+      "quote": "Seek understanding so that when the call rises, you are not among the confused.",
+      "ref": "Kitab al-Ghaybah — al-Tusi",
+      "body": "Ignorance is a fog that thickens in occultation. Read, ask, and verify. The companions are people of insight — not rumor, not panic, not borrowed slogans.",
+      "themes": ["knowledge", "insight"]
+    },
+    {
+      "id": "ghaybah-007",
+      "label": "Service in Silence",
+      "quote": "The best of deeds in occultation are those done for Allah when no eye of praise is watching.",
+      "ref": "Kitab al-Ghaybah — al-Nu'mani",
+      "body": "Hidden charity, private tears, and quiet discipline shape the soul for open service. What you practice unseen is what you will carry when the world suddenly sees.",
+      "themes": ["sincerity", "service"]
+    },
+    {
+      "id": "ghaybah-008",
+      "label": "Hope Without Haste",
+      "quote": "Do not hasten the affair; rather prepare yourselves as you have been commanded.",
+      "ref": "Kitab al-Ghaybah — al-Tusi",
+      "body": "Haste breeds despair and exaggeration. Hope is steady work: purify, train, learn, and wait with dignity. The timing belongs to Allah; the preparation belongs to you.",
+      "themes": ["hope", "discipline"]
+    },
+    {
+      "id": "ghaybah-009",
+      "label": "Heart Presence",
+      "quote": "Let not your hearts harden in the length of the wait, for hardness is the beginning of loss.",
+      "ref": "Kitab al-Ghaybah — al-Nu'mani",
+      "body": "Softness of heart is maintained by remembrance, du'a, and honest muhasaba. A hard heart cannot recognize truth even when it stands before it.",
+      "themes": ["heart", "muhasaba"]
+    },
+    {
+      "id": "ghaybah-010",
+      "label": "Companions of Certainty",
+      "quote": "They are people of certainty whose resolve does not break when trials intensify.",
+      "ref": "Kitab al-Ghaybah — al-Tusi",
+      "body": "Certainty is tested in hunger, fear, rumor, and delay. Strengthen the body, sharpen the mind, and polish the soul — so that when the trial peaks, your resolve is already trained.",
+      "themes": ["certainty", "resolve"]
+    }
+  ]
+}
