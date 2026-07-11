@@ -1,12 +1,20 @@
 # Project Intezari
 
-<img src="./docs/banner.png" alt="Project Intezari — Imam al-Asr (atfs)" width="100%" />
+<p align="center">
+  <img src="./docs/banner.png" alt="Project Intezari — Imam al-Asr (atfs)" width="420" />
+</p>
 
-<center>
-<h2>اَللّٰهُمَّ عَرِّفْنِىْ حُجَّتَكَ - فَاِنَّكَ اِنْ لَّمْ تُعَرِّ فْنِىْ حُجَّتَكَ ضَلَلْتُ عَنْ دِيْنِىْ</h2>
-<p>Allahumma a'rrifni hujjatak fa innaka in lam to a'rifni hujjatak, zalal to an deeni.</p>
-<h3>Oh Allah make me recognize Your Proof (Imam) — For, if you do not make me recognize Your Proof, I will deviate from my religion</h3>
-</center>
+<div align="center">
+
+<p dir="rtl" lang="ar" style="font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', 'Noto Naskh Arabic', serif; font-size: 1.55rem; font-weight: 400; line-height: 2.1; letter-spacing: 0.04em;">
+اَللّٰهُمَّ عَرِّفْنِىْ حُجَّتَكَ — فَاِنَّكَ اِنْ لَّمْ تُعَرِّفْنِىْ حُجَّتَكَ ضَلَلْتُ عَنْ دِيْنِىْ
+</p>
+
+<p><em>Allahumma a'rrifni hujjatak fa innaka in lam to a'rifni hujjatak, zalal to an deeni.</em></p>
+
+<p><strong>Oh Allah make me recognize Your Proof (Imam) — For, if you do not make me recognize Your Proof, I will deviate from my religion</strong></p>
+
+</div>
 
 Local-first app that treats **Intizar** — waiting for Imam al-Mahdi (atfs) — as active preparation: physical readiness, intellectual grounding, and spiritual mindfulness.
 
