@@ -39,6 +39,7 @@ Pillars, Daily Commandment (from today’s Kitab al-Ghaybah pack), and morning n
 
 **Local notifications** (native):
 
+- **Welcome** once on first launch after install (notification permission permitting)
 - Five salah alerts from Tehran/Qum-style prayer times (GPS when allowed; otherwise last known or Qom)
 - Two exercise reminders at **10:00** and **18:00** if you have not started today’s session; cancelled after the first exercise is completed
 

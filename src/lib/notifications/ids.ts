@@ -1,8 +1,11 @@
 /**
- * Notification ID ranges (avoid weekly Muhasaba 4004):
+ * Notification ID ranges (avoid weekly Muhasaba 4004, welcome 4001):
+ * - Welcome: 4001 (once per install)
  * - Prayer: 4100–4169 (7 days × 5 prayers, stride 10)
  * - Exercise: 4200–4213 (7 days × 2 slots)
  */
+
+export const WELCOME_NOTIF_ID = 4001;
 
 export const DAYS_AHEAD = 7;
 
