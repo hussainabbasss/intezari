@@ -71,6 +71,8 @@ Binary **Namaz log** (Fajr → Isha) with Hudur micro-journals — saved on devi
 
 ## Physical
 
+**Today’s steps** (native): a compact live counter on the Physical tab uses the OS pedometer (`@capgo/capacitor-pedometer` — Android Activity Recognition / iOS Core Motion). Counting continues with the screen locked while the app’s pedometer session is active. Web/dev shows an unavailable state — no fake steps. Steps stay off the Progress ring this pass.
+
 Fill a short questionnaire (height, weight, age, fitness level, goal, equipment, medical notes, days per week). The app calls the fitness API (Gemini) and saves a **4-week plan** on device.
 
 That plan drives:
@@ -88,7 +90,7 @@ If the API is unreachable, a local JSON fallback with the same shape is used so 
 - Next.js (static export) + Capacitor (Android-first)
 - Tailwind CSS, Framer Motion
 - Calligraphy: **Aref Ruqaa** for الانصار
-- On-device: `@capacitor/preferences`, `@capacitor/local-notifications`, `@capacitor/geolocation`
+- On-device: `@capacitor/preferences`, `@capacitor/local-notifications`, `@capacitor/geolocation`, `@capgo/capacitor-pedometer`
 - Prayer times: `adhan` (Tehran method — closest to Qum/Leva in that library)
 - Fitness + spiritual audits: Gemini via `/api/generate-fitness` and `/api/analyze-salah` (deploy separately for Capacitor builds)
 

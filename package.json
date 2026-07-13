@@ -20,6 +20,7 @@
     "@capacitor/ios": "^8.4.1",
     "@capacitor/local-notifications": "^8.2.0",
     "@capacitor/preferences": "^8.0.1",
+    "@capgo/capacitor-pedometer": "^8.0.38",
     "adhan": "^4.4.4",
     "framer-motion": "^12.42.2",
     "hijri-converter": "^1.1.1",

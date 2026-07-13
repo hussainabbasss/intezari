@@ -6,6 +6,7 @@ import { Lock, PersonStanding } from "lucide-react";
 import { WeeklyLoadChart } from "@/components/ui/WeeklyLoadChart";
 import { TrainingModuleCard } from "@/components/ui/TrainingModuleCard";
 import { PrimaryButton } from "@/components/ui/Buttons";
+import { StepCounter } from "@/components/physical/StepCounter";
 import {
   daysUntilUnlock,
   planIsLocked,
@@ -157,6 +158,8 @@ export default function PhysicalPage() {
           </div>
         </div>
       )}
+
+      <StepCounter />
 
       <div
         className={`relative mb-4 overflow-hidden rounded-lg border border-outline-variant bg-surface-container p-5 ${

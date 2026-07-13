@@ -49,5 +49,7 @@
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Al-Ansaar uses your location to schedule accurate prayer-time reminders for your area.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Al-Ansaar counts your steps to track physical readiness, including while the screen is locked.</string>
 </dict>
 </plist>
