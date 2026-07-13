@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  /* Color — Sacred Discipline nocturnal */
+  --color-bg: oklch(0.18 0.04 260);
+  --color-bg-deep: oklch(0.14 0.04 260);
+  --color-surface: oklch(0.22 0.04 260);
+  --color-surface-high: oklch(0.26 0.035 260);
+  --color-on-surface: oklch(0.92 0.02 260);
+  --color-on-surface-muted: oklch(0.82 0.02 160);
+  --color-outline: oklch(0.45 0.02 160);
+  --color-primary: oklch(0.8 0.07 165);
+  --color-on-primary: oklch(0.28 0.06 165);
+  --color-primary-container: oklch(0.35 0.07 165);
+  --color-gold: oklch(0.82 0.12 70);
+  --color-gold-bright: oklch(0.9 0.14 95);
+  --color-on-gold: oklch(0.32 0.08 60);
+  --color-tertiary: oklch(0.8 0.03 250);
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.5rem;
+  --space-7: 4rem;
+  --space-8: 6rem;
+
+  /* Radii */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --glow-gold: 0 0 40px oklch(0.82 0.12 70 / 0.25);
+  --glow-emerald: 0 0 60px oklch(0.8 0.07 165 / 0.15);
+
+  /* Z-index */
+  --z-base: 0;
+  --z-motif: 1;
+  --z-content: 10;
+  --z-sticky: 100;
+  --z-modal-backdrop: 200;
+  --z-modal: 210;
+  --z-toast: 300;
+  --z-tooltip: 400;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-deep: var(--color-bg-deep);
+  --color-surface: var(--color-surface);
+  --color-surface-high: var(--color-surface-high);
+  --color-on-surface: var(--color-on-surface);
+  --color-on-surface-muted: var(--color-on-surface-muted);
+  --color-outline: var(--color-outline);
+  --color-primary: var(--color-primary);
+  --color-on-primary: var(--color-on-primary);
+  --color-primary-container: var(--color-primary-container);
+  --color-gold: var(--color-gold);
+  --color-gold-bright: var(--color-gold-bright);
+  --color-on-gold: var(--color-on-gold);
+  --color-tertiary: var(--color-tertiary);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-source-serif);
+  --font-arabic: var(--font-aref-ruqaa);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-on-surface);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Starfield twinkle */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes dawn-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 24px oklch(0.82 0.12 70 / 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px oklch(0.82 0.12 70 / 0.4);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 3.5s ease-in-out infinite;
+}
+
+.animate-drift {
+  animation: drift 12s ease-in-out infinite;
+}
+
+.animate-dawn {
+  animation: dawn-pulse 8s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-twinkle,
+  .animate-drift,
+  .animate-dawn,
+  .animate-glow {
+    animation: none !important;
+  }
+}
+
+/* Calligraphy text shadow */
+.dua-calligraphy {
+  text-shadow:
+    0 0 24px oklch(0.9 0.14 95 / 0.35),
+    0 2px 8px oklch(0 0 0 / 0.4);
+}

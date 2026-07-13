@@ -114,6 +114,10 @@ npm run build:cap    # static export + cap sync
 npm run cap:android  # open Android Studio
 ```
 
+## Landing site
+
+Marketing page lives in [`landing-site/`](landing-site/). Run with `cd landing-site && npm install && npm run dev`. Download CTA uses `GITHUB_RELEASES_URL` in `landing-site/lib/site.ts` (swap when the APK release link is final).
+
 ---
 
 <p align="center"><em>اللّهُمَّ عَجِّلْ لِوَلِيِّكَ الْفَرَج</em></p>
